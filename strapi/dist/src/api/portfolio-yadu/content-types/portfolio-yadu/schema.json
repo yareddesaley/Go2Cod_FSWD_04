@@ -1,0 +1,55 @@
+{
+    "kind": "collectionType",
+    "collectionName": "portfolio_yadus",
+    "info": {
+        "singularName": "portfolio-yadu",
+        "pluralName": "portfolio-yadus",
+        "displayName": "portfolio-yadu",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "introSection": {
+            "type": "component",
+            "repeatable": false,
+            "component": "image-and-description.image-and-description"
+        },
+        "aboutme": {
+            "type": "blocks"
+        },
+        "computerSkills": {
+            "type": "blocks"
+        },
+        "programmingSkills": {
+            "type": "blocks"
+        },
+        "frontendProject": {
+            "type": "component",
+            "repeatable": true,
+            "component": "image-and-description.image-and-description"
+        },
+        "backendProject": {
+            "type": "component",
+            "repeatable": true,
+            "component": "image-and-description.image-and-description"
+        },
+        "footer": {
+            "type": "component",
+            "repeatable": false,
+            "component": "footer.footer"
+        },
+        "aboutmee": {
+            "type": "component",
+            "repeatable": true,
+            "component": "aboutme.aboutme"
+        },
+        "contact": {
+            "type": "component",
+            "repeatable": true,
+            "component": "contact.contact"
+        }
+    }
+}

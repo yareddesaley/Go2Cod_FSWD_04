@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_footer_footers",
+    "info": {
+        "displayName": "footer"
+    },
+    "options": {},
+    "attributes": {
+        "phoneNumber": {
+            "type": "string"
+        },
+        "phoNumberTwo": {
+            "type": "string"
+        },
+        "telegram": {
+            "type": "string"
+        },
+        "email": {
+            "type": "email"
+        }
+    }
+}

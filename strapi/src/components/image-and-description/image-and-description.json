@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_image_and_description_image_and_descriptions",
+  "info": {
+    "displayName": "imageAndDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "default": "description"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

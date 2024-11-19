@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "displayName": "contact"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "phoneNumber2": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "linkedIn": {
+      "type": "text"
+    },
+    "github": {
+      "type": "text"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    }
+  }
+}

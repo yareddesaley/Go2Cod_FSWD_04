@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_aboutme_aboutmes",
+  "info": {
+    "displayName": "aboutme"
+  },
+  "options": {},
+  "attributes": {
+    "aboutme": {
+      "type": "blocks"
+    }
+  }
+}
